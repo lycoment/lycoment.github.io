@@ -1,0 +1,551 @@
+/* General Settings */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body h1,h2,h3,h4,h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mainNav a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-box{
+    padding: 150px;
+}
+
+
+.section-top{
+    margin-bottom: 30px;
+}
+
+.section-top hr{
+    display: inline-block;
+    height: 2px;
+    width: 220px;
+    background-color: #3d3d3d;
+    border: none;
+}
+
+
+
+
+/* Navigation */
+
+.navbar-brand{
+    transition: all 0.5s;
+    color: white !important;
+}
+
+.navbar-brand:hover{
+    color: white !important;
+}
+
+
+nav.navbar-container{
+    padding: 20px 0px 20px 0px;
+}
+
+
+#mainNav{
+    background-color: transparent;
+}
+
+nav.shrink{
+    padding: 0px;
+    background-color: #00b894 !important;
+}
+
+.navbar-brand.shrink,
+.navbar-container.shrink,
+.navbar.fixed-top.shrink,
+.navbar-brand,
+.navbar-container{
+    transition: .8s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 12px 10px;
+    letter-spacing: 2px;
+    color: white;
+    border-bottom: none;
+    transition: all 0.5s;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover{
+    color: green;
+}
+
+
+
+
+/* SOSYAL MEDYA SABİT CSS */
+.icon-bar {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 8px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+  .instagram{
+      background: #8e44ad;
+      color: white;
+  }
+
+  .twitter{
+      background: #2980b9;
+      color: white;
+  }
+
+
+
+
+/* HERO */
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+
+/* ABOUT US */
+
+#about{
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-color: #dfe6e9;
+}
+
+.icon{
+    color: #00b894;
+    font-size: 38px;
+}
+
+
+#about h3{
+    color: black;
+}
+
+#about hr{
+    background-color: #00b894;
+    width: 130px;
+    height: 2px;
+    border: none;
+}
+
+.about-item hr{
+    background-color: #00b894;
+    width: 190px !important;
+    height: 2px;
+    border: none;
+    box-shadow: black;
+}
+
+.about-item{
+    padding: 60px 30px;
+}
+
+/* PORTFOY */
+
+#portfoy .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+#portfoy h2{
+    text-align: center;
+}
+
+
+#portfoy{
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+
+
+#portfoy hr{
+    background-color: #00b894;
+    width: 170px;
+    height: 2px;
+    border: none;
+}
+
+
+#portfoy .fa{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.imageOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00b894;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+
+
+.imageContainer:hover .imageOverlay{
+    opacity: .7;
+}
+
+
+.imageText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Statement Section */
+
+#statement{
+    background-image: url(../images/statement.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+
+
+
+
+
+/* WORKS */
+
+#works h2{
+    text-align: center;
+}
+
+
+#works{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-color: #dfe6e9;
+}
+
+
+#works hr{
+    background-color: #00b894;
+    width: 130px;
+    height: 2px;
+    border: none;
+}
+
+
+#works .btn{
+    background-color: #00b894;
+}
+
+
+/* CONTACT */
+
+.contact-form{
+    background:rgba(0,0,0, .6);
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
+
+
+#contact .btn{
+    background-color: #00b894;
+}
+
+
+#contact{
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-color: #dfe6e9;
+}
+
+
+#contact h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+#footer p{
+    color: white;
+}
+
+#footer h2,h3{
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+}
+
+
+footer{
+    padding-top: 40px;
+}
+
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+    border-bottom: 1px solid #00b894;
+    line-height: 40px;
+}
+
+.footer-top{
+    background: #00b894;
+    padding: 80px 0;
+}
+
+footer p{
+    line-height: 25px;
+}
+
+
+footer h2,h3{
+    letter-spacing: 1px;
+}
+
+
+
+.segment-two h2::before{
+    content: ' I ';
+    color: #00b894;
+}
+
+
+.segment-two ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.segment-two ul li a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.segment-four h2::before{
+    content: ' I ';
+    color: #00b894;
+}
+
+
+.segment-one h3::before{
+    content: ' I ';
+    color: #00b894;
+}
+
+
+
+.segment-one{
+    padding-right: 40px;
+}
+
+.segment-four p{
+    font-size: 18px;
+}
+
+
+.segment-one p{
+    font-size: 18px;
+}
+
+
+.segment-four a i{
+    font-size: 25px;
+}
+
+.youtube{
+    color: white;
+}
+
+
+.insta{
+    color: white;
+}
+
+.twit{
+    color: white;
+}
+
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+    color: wheat !important;
+}
+
+
+
+#footer .telephone,.map{
+    color: white;
+}
